@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: R6Stats
+
+  datasource:
+    url: jdbc:postgresql://localhost:5431/R6stats
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    show-sql: true
+
+  flyway:
+    enabled: true
+
